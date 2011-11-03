@@ -1,3 +1,9 @@
+# revision 18835
+# category TLCore
+# catalog-ctan /language/devanagari/velthuis
+# catalog-date 2008-06-22 18:57:24 +0200
+# catalog-license gpl
+# catalog-version 2.15
 Name:		texlive-devnag
 Version:	2.15
 Release:	1
@@ -21,6 +27,7 @@ The fonts are available both in Metafont and Type 1 format.
 
 #-----------------------------------------------------------------------
 %files
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -29,3 +36,7 @@ The fonts are available both in Metafont and Type 1 format.
 %build
 
 %install
+mkdir -p %{buildroot}%{_datadir}
+cp -fpar %{buildroot}%{_datadir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
