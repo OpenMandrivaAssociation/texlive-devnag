@@ -14,7 +14,7 @@ License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/devnag.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
-Requires(post):	texlive-tlpkg
+Requires(pre):	texlive-tlpkg
 Requires:	texlive-devnag.bin
 Conflicts:	texlive-texmf <= 20110705-3
 
