@@ -36,7 +36,5 @@ The fonts are available both in Metafont and Type 1 format.
 %build
 
 %install
-mkdir -p %{buildroot}%{_datadir}
-cp -fpar %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_tlpkgobjdir}
 cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
