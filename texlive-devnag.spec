@@ -16,7 +16,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-devnag.bin
-Conflicts:	texlive-texmf <= 20110705-3
 
 %description
 Frans Velthuis' preprocessor for Devanagari text, and fonts and
@@ -27,7 +26,6 @@ The fonts are available both in Metafont and Type 1 format.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -36,5 +34,3 @@ The fonts are available both in Metafont and Type 1 format.
 %build
 
 %install
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
