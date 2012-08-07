@@ -1,12 +1,12 @@
-# revision 18835
+# revision 26313
 # category TLCore
 # catalog-ctan /language/devanagari/velthuis
-# catalog-date 2008-06-22 18:57:24 +0200
+# catalog-date 2012-05-07 21:56:17 +0200
 # catalog-license gpl
-# catalog-version 2.15
+# catalog-version 2.15.1
 Name:		texlive-devnag
-Version:	2.15
-Release:	2
+Version:	2.15.1
+Release:	1
 Summary:	Typeset Devanagari
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/devanagari/velthuis
