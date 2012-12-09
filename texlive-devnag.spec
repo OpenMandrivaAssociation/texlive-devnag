@@ -1,12 +1,12 @@
-# revision 26313
+# revision 18835
 # category TLCore
 # catalog-ctan /language/devanagari/velthuis
-# catalog-date 2012-05-07 21:56:17 +0200
+# catalog-date 2008-06-22 18:57:24 +0200
 # catalog-license gpl
-# catalog-version 2.15.1
+# catalog-version 2.15
 Name:		texlive-devnag
-Version:	2.15.1
-Release:	1
+Version:	2.15
+Release:	2
 Summary:	Typeset Devanagari
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/devanagari/velthuis
@@ -34,3 +34,18 @@ The fonts are available both in Metafont and Type 1 format.
 %build
 
 %install
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.15-2
++ Revision: 750888
+- Rebuild to reduce used resources
+
+* Mon Nov 07 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.15-1
++ Revision: 724951
+- texlive-devnag
+- texlive-devnag
+- texlive-devnag
+- texlive-devnag
+- texlive-devnag
+
