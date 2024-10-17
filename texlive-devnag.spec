@@ -9,7 +9,7 @@ Version:	2.15.1
 Release:	11
 Summary:	Typeset Devanagari
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/devanagari/velthuis
+URL:		https://www.ctan.org/tex-archive/language/devanagari/velthuis
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/devnag.tar.xz
 BuildArch:	noarch
